@@ -1,0 +1,60 @@
+h2 {
+	text-align: center;
+}
+#tweets-container {
+	margin: 0 auto;
+	width: 550px;
+}
+.tweet {
+	display:inline-block;
+	padding: 3px;
+}
+.tweet-image {
+	float: left;
+	width: 48px;
+	height: 48px;
+	padding: 8px 0 0 5px;
+}
+.tweet-image img {
+	border: none;
+}
+.tweet-right {
+	float: right;
+	width: 430px;
+	overflow: hidden;
+	padding-left: 15px;
+}
+.tweet-screen-name a {
+	font-size: 110%;
+	font-weight: bold;
+	text-align:center;
+	color:#2EB2E9;
+	text-decoration: none;
+}
+.tweet-screen-name a:hover {
+	text-decoration: underline;
+}
+.tweet-name {
+	font-size: 100%;
+	color: #808080;
+	padding-left: 10px;
+}
+.tweet-text {
+	font-size: 100%;
+}
+.tweet-text a {
+	text-decoration: none;
+}
+.tweet-text a:hover {
+	text-decoration: underline;
+}
+.tweet-date a {
+	font-size: 80%;
+	color: #808080;
+	margin-top: 2px;
+	float: left;
+	text-decoration: none;
+}
+.tweet-date a:hover {
+	text-decoration: underline;
+}
